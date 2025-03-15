@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакты - CS:GO Магазин</title>
+    <link rel="stylesheet" href="./assets/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav-container">
+            <div class="logo">
+                <img src="https://images.unsplash.com/photo-1550745165-9bc0b252726f?w=50&h=50&fit=crop" alt="Логотип" class="logo-img">
+                <a href="./index.html"><span>Магазин</span></a>
+            </div>
+            <div class="burger-menu">
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+                <div class="burger-line"></div>
+            </div>
+            <div class="nav-links">
+                <a href="index.html">Главная</a>
+                <a href="shop.html">Магазин</a>
+                <a href="services.html">Услуги</a>
+                <a href="about.html">О нас</a>
+                <a href="contact.html" class="active">Контакты</a>
+            </div>
+            <div class="search-container">
+                <input type="text" placeholder="Поиск..." class="search-input">
+                <button class="search-btn">Искать</button>
+            </div>
+        </nav>
+    </header>
+
+    <main style="padding-top: 80px;">
+        <section class="contact-section page-transition">
+            <div class="contact-content">
+                <h1 data-aos="fade-up">Свяжитесь с нами</h1>
+                <div class="contact-grid">
+                    <div class="contact-info" data-aos="fade-right">
+                        <div class="info-card">
+                            <h3>Адрес</h3>
+                            <p>ул. Игровая, 123</p>
+                            <p>Москва, 123456</p>
+                            <p>Россия</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Контактная информация</h3>
+                            <p>Телефон: +7 (495) 123-45-67</p>
+                            <p>Email: contact@csgostore.com</p>
+                            <p>Поддержка: support@csgostore.com</p>
+                        </div>
+                        <div class="info-card">
+                            <h3>Часы работы</h3>
+                            <p>Понедельник - Пятница: 9:00 - 20:00</p>
+                            <p>Суббота: 10:00 - 18:00</p>
+                            <p>Воскресенье: Выходной</p>
+                        </div>
+                    </div>
+                    <div class="contact-form" data-aos="fade-left">
+                        <h2>Отправьте нам сообщение</h2>
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <input type="text" id="name" name="name" placeholder="Ваше имя" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="email" id="email" name="email" placeholder="Ваш email" required>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" id="subject" name="subject" placeholder="Тема" required>
+                            </div>
+                            <div class="form-group">
+                                <textarea id="message" name="message" placeholder="Ваше сообщение" required></textarea>
+                            </div>
+                            <button type="submit" class="submit-btn">Отправить</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Подпишитесь на нас</h3>
+                <div class="social-links">
+                    <a href="#" class="social-link">Facebook</a>
+                    <a href="#" class="social-link">Twitter</a>
+                    <a href="#" class="social-link">Instagram</a>
+                    <a href="#" class="social-link">Discord</a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <h3>Контакты</h3>
+                <p>Email: contact@csgostore.com</p>
+                <p>Телефон: +7 (495) 123-45-67</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 CS:GO Магазин. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
